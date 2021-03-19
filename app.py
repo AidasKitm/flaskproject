@@ -9,3 +9,6 @@ db = SQLAlchemy(app)
 def server():
     context = {"something":"something_text"}
     return render_template("index.html", **context)
+
+
+# bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
